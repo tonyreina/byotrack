@@ -100,4 +100,7 @@ from byotrack.api.tracker import BatchMultiStepTracker, MultiStepTracker, Tracke
 from byotrack.api.tracks import Track
 from byotrack.video import Video, VideoTransformConfig
 
+# Makes the visualize module visible by simply doing `import byotrack`
+import byotrack.visualize
+
 __version__ = "1.3.7"
