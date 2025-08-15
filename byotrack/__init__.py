@@ -100,5 +100,7 @@ from byotrack.api.tracker import BatchMultiStepTracker, MultiStepTracker, Tracke
 from byotrack.api.tracks import Track
 from byotrack.video import Video, VideoTransformConfig
 
+# Import the visualization helpers
+from byotrack.visualize import display_lifetime, temporal_projection, InteractiveVisualizer, InteractiveFlowVisualizer, flow_to_rgb, get_flow_wheel
 
 __version__ = "1.3.7"
